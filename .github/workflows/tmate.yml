@@ -54,8 +54,8 @@ jobs:
 
       - name: ⏳ Keep VPS alive
         run: |
-          for i in $(seq 1 $((360))); do
-            echo "🟢 Running minute $i/360..."
+          for i in $(seq 1 $((3660))); do
+            echo "[ ⚙️ ] Duydz VPS $i/3660..."
             sleep 60
           done
 
